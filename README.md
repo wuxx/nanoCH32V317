@@ -59,17 +59,15 @@ Note: The compiled binary file is located in the obj directory of the project, s
 download WCHISPStudio at [WCH Official Website](https://www.wch.cn/downloads/WCHISPTool_Setup_exe.html)
 
 ### WCHISPStudio Config
+The chip series select CH32V31x series, the chip model select CH32V317WCU6, and the download method select USB.  
 ![ISP-1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/WCHISPStudio-EN-1.png)
-
-The chip series select CH32V31x series, the chip model select CH32V317WCU6, and the download method select USB.
 Keep pressing the BOOT button on the development board, then press and release the RST button, and finally release the BOOT button to make the chip enter the bootloader. If the bootloader is successfully entered, the target can be detected in the USB device list in the WCHISPStudio.
 Then select the bin or hex file to be programmed, and click Download to burn the firmware.
 ![ISP-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/WCHISPStudio-EN-2.png)
 ![ISP-3](https://github.com/wuxx/nanoCH32V317/blob/main/doc/WCHISPStudio-EN-3.png)
 
 # Product Link
-[Aliexpress](https://www.aliexpress.com/item/1005005033298927.html?spm=a2g0s.12269583.0.0.20535947csm0Sw
-)
+[Aliexpress](https://www.aliexpress.com/item/1005005033298927.html?spm=a2g0s.12269583.0.0.20535947csm0Sw)  
 [Tindie](https://www.tindie.com/products/johnnywu/nanoch32v317-development-board/)
 
 # Reference
