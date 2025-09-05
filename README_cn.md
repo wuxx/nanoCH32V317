@@ -60,13 +60,13 @@ SWDIO | PA13 |
 可在[沁恒官网](https://www.wch.cn/downloads/WCHISPTool_Setup_exe.html)下载WCHISPTool工具
 
 ### WCHISPTool 配置
-![ISP-1](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-1.png)
+![ISP-1](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-CN-1.png)
 
 芯片系列选择CH32Vx系列，芯片型号选择CH32V317，下载方式选择USB。
 持续按住开发板上的BOOT按键，然后按下RST按键并松开，最后再松开BOOT按键，令芯片进入bootloader，若成功进入bootloader，则在ISP工具中的USB设备列表中可检测到目标芯片。
 然后在下方选择需要烧录的bin或者hex文件，点击下载即可烧录固件。
-![ISP-2](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-2.png)
-![ISP-3](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-3.png)
+![ISP-2](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-CN-2.png)
+![ISP-3](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-CN-3.png)
 
 # 产品链接
 [nanoCH32V317 Board](https://item.taobao.com/item.htm?abbucket=9&id=972476111665)

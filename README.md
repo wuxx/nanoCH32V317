@@ -50,45 +50,13 @@ Note: The compiled binary file is located in the obj directory of the project, s
 download WCHISPStudio at [WCH Official Website](https://www.wch.cn/downloads/WCHISPTool_Setup_exe.html)
 
 ### WCHISPStudio Config
-![ISP-2](https://github.com/wuxx/nanoCH32V305/blob/master/doc/ISP_EN.png)
+![ISP-1](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-EN-1.png)
 
-The chip series select CH32V30x series, the chip model select CH32V305RBT6, and the download method select USB.
+The chip series select CH32V31x series, the chip model select CH32V317WCU6, and the download method select USB.
 Keep pressing the BOOT button on the development board, then press and release the RST button, and finally release the BOOT button to make the chip enter the bootloader. If the bootloader is successfully entered, the target can be detected in the USB device list in the WCHISPStudio.
 Then select the bin or hex file to be programmed, and click Download to burn the firmware.
-
-## Open Source Toolchain
-### Toolchain Download
-
-Download the RISC-V toolchain https://github.com/xpack-dev-tools/riscv-none-embed-gcc-xpack/releases to the local, then modify ~/.bashrc and import it into environment variables, for example as follows
-```
-export PATH=${PATH}:/home/pi/tool/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin
-```
-
-### Compile
-```
-$git clone https://github.com/wuxx/CH32V305-makefile-example
-$cd CH32V305-makefile-example
-$make
-```
-
-### Program
-use the open source download tool wchisp to program the flash, the operation is as follows  
-wchisp is a tool written in rust, first update rustc
-```
-$rustc -V
-$rustup update
-```
-
-install wchisp
-```
-$cargo install wchisp --git https://github.com/ch32-rs/wchisp
-```
-
-Press and hold the BOOT button on the development board, then press the RST button and release, and finally release the BOOT button to make the chip enter the bootloader, and then call wchisp to program
-```
-$sudo /home/pi/.cargo/bin/wchisp info
-$sudo /home/pi/.cargo/bin/wchisp flash ./build/app.bin
-```
+![ISP-2](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-EN-2.png)
+![ISP-3](https://github.com/wuxx/nanoCH32V317/blob/master/doc/WCHISPStudio-EN-3.png)
 
 # Product Link
 [Aliexpress](https://www.aliexpress.com/item/1005005033298927.html?spm=a2g0s.12269583.0.0.20535947csm0Sw
@@ -97,4 +65,6 @@ $sudo /home/pi/.cargo/bin/wchisp flash ./build/app.bin
 
 # Reference
 ### WCH
-https://www.wch.cn/
+[https://www.wch.cn/](https://www.wch.cn/)
+### MounRiver
+[http://www.mounriver.com](http://www.mounriver.com)
