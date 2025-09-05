@@ -1,4 +1,4 @@
-nanoCH32V305
+nanoCH32V317
 -----------
 [中文](./README_cn.md)
 
@@ -11,7 +11,7 @@ nanoCH32V305
 
 
 # Introduce
-The nanoCH32V317 development board is designed by MuseLab based on the Qinheng CH32V317WCU6 chip. It supports peripherals such as USB2.0 high-speed/Ethernet MAC controller, 10/100M physical layer transceiver, DVP, SDIO, and advanced motor PWM timer. The chip's maximum clock frequency is 144MHz, and it can be downloaded and programmed through the TYPE-C USB port, facilitating rapid prototype verification and development for customers  
+The nanoCH32V317 development board is designed by MuseLab based on the Qinheng CH32V317WCU6 chip. It supports peripherals such as USB2.0 high-speed/Ethernet MAC controller, 10/100M physical layer transceiver, DVP, SDIO, and advanced motor PWM timer. The chip's maximum clock frequency is 144MHz, and it can be programmed via the TYPE-C USB port, Facilitate rapid development and prototype verification
 
 ![1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317-1.jpg)
 
@@ -21,7 +21,7 @@ The nanoCH32V317 development board is designed by MuseLab based on the Qinheng C
 - Onboard 100M Ethernet interface (with filter)
 
 # Chip Resources
-![CH32V317](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317.png)
+![CH32V317](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317.jpg)
 
 # How To Use
 ## MounRiver Studio IDE
@@ -31,7 +31,7 @@ WCH officially provides MounRiver Studio IDE development environment, which supp
 download the MounRiver Studio IDE from the official website [MounRiver Studio](http://www.mounriver.com), and just select the latest version to download.
 
 ### Compile
-Take the GPIO project as an example, double-click GPIO_Toggle.wvproj to open the project
+Take the GPIO project as an example, double-click doc\CH32V317EVT\EXAM\GPIO\GPIO_Toggle\GPIO_Toggle.wvproj to open the project
 ![MRS-1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-1.png)
 Click Project -> Build Project to compile the project  
 ![MRS-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-2.png)
@@ -70,7 +70,7 @@ Then select the bin or hex file to be programmed, and click Download to burn the
 # Product Link
 [Aliexpress](https://www.aliexpress.com/item/1005005033298927.html?spm=a2g0s.12269583.0.0.20535947csm0Sw
 )
-[Tindie](https://www.tindie.com/products/johnnywu/nanoch32v305-development-board/)
+[Tindie](https://www.tindie.com/products/johnnywu/nanoch32v317-development-board/)
 
 # Reference
 ### WCH
