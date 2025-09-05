@@ -24,7 +24,7 @@ nanoCH32V317开发板是MuseLab基于沁恒CH32V317WCU6芯片设计的的开发�
 - 板载百兆以太网接口(带滤波器)
 
 # 芯片资源
-![CH32V317](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317.png)
+![CH32V317](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317.jpg)
 
 # 使用教程
 ## MounRiver Studio IDE
@@ -36,8 +36,9 @@ nanoCH32V317开发板是MuseLab基于沁恒CH32V317WCU6芯片设计的的开发�
 ### 编译
 以GPIO工程为例，双击GPIO_Toggle.wvproj打开工程  
 ![MRS-1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-1.png)
-![MRS-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-2.png)  
 点击 Project -> Build Project 对工程进行编译  
+![MRS-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-2.png)  
+点击 Flash -> Configuration 配置芯片
 ![MRS-3](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-3.png)
 
 
@@ -50,7 +51,7 @@ SWCLK | PA14 |
 SWDIO | PA13 |
 3V3 | 3V3|
 
-然后则点击MounRiver界面上的菜单 Flash -> Download 即可完成烧录，若使用自带的USB口进行烧录，则操作说明如下
+然后则点击MounRiver界面上的菜单 Flash -> Download 即可完成烧录，若使用自带的USB口进行烧录，则操作说明见下一小节
 ![MRS-4](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-4.png)
 
 注：编译生成的二进制文件位于工程的obj目录下，如EVT\EXAM\GPIO\GPIO_Toggle\obj\GPIO_Toggle.hex

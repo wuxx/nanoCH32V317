@@ -34,15 +34,25 @@ download the MounRiver Studio IDE from the official website [MounRiver Studio](h
 ### Compile
 Take the GPIO project as an example, double-click GPIO_Toggle.wvproj to open the project
 ![MRS-1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-1.png)
-![MRS-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-2.png)
 Click Project -> Build Project to compile the project  
+![MRS-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-2.png)
+Click Flash -> Configuration to configure the target MCU
 ![MRS-3](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-3.png)
-Click Flash -> Download to program the MCU  
-![MRS-4](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-4.png)
 
 
 ## Program via SWD Interface
 If use WCH's official downloader WCHLink, connect the wires as follows
+WCHLink|nanoCH32V317 |
+----|----|
+GND |  GND |
+SWCLK | PA14 |
+SWDIO | PA13 |
+3V3 | 3V3|
+
+then Click Flash -> Download to program the MCU  
+![MRS-4](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-4.png)
+
+
 Note: The compiled binary file is located in the obj directory of the project, such as EVT\EXAM\GPIO\GPIO_Toggle\obj\GPIO_Toggle.hex
 
 ## Program via USB ISP
