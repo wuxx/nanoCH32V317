@@ -14,7 +14,6 @@ nanoCH32V305
 The nanoCH32V317 development board is designed by MuseLab based on the Qinheng CH32V317WCU6 chip. It supports peripherals such as USB2.0 high-speed/Ethernet MAC controller, 10/100M physical layer transceiver, DVP, SDIO, and advanced motor PWM timer. The chip's maximum clock frequency is 144MHz, and it can be downloaded and programmed through the TYPE-C USB port, facilitating rapid prototype verification and development for customers  
 
 ![1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317-1.jpg)
-![2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317-2.jpg)
 
 # Feature
 - Dual USB interface, USB1 is USB-FS device, USB2 is USB-HS device

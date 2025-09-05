@@ -14,7 +14,6 @@ nanoCH32V317
 nanoCH32V317开发板是MuseLab基于沁恒CH32V317WCU6芯片设计的的开发板，支持USB2.0高速/以太网MAC控制器及10/100M物理层收发/DVP/SDIO/电机PWM高级定时器等外设，芯片最高主频144MHz，可通过TYPE-C USB口下载烧录，方便客户进行快速的原型验证及开发  
 
 ![1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317-1.jpg)
-![2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317-2.jpg)
 
 
 # 特性
@@ -38,7 +37,7 @@ nanoCH32V317开发板是MuseLab基于沁恒CH32V317WCU6芯片设计的的开发�
 ![MRS-1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-1.png)
 点击 Project -> Build Project 对工程进行编译  
 ![MRS-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-2.png)  
-点击 Flash -> Configuration 配置芯片
+点击 Flash -> Configuration 配置芯片  
 ![MRS-3](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-3.png)
 
 
