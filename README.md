@@ -11,14 +11,15 @@ nanoCH32V317
 
 
 # Introduce
-The nanoCH32V317 development board is designed by MuseLab based on the Qinheng CH32V317WCU6 chip. It supports peripherals such as USB2.0 high-speed/Ethernet MAC controller, 10/100M physical layer transceiver, DVP, SDIO, and advanced motor PWM timer. The chip's maximum clock frequency is 144MHz, and it can be programmed via the TYPE-C USB port, Facilitate rapid development and prototype verification
+The nanoCH32V317 development board is designed by MuseLab based on the WCH CH32V317WCU6. It supports peripherals such as USB2.0 high-speed/Ethernet MAC controller, 10/100M physical layer transceiver, DVP, SDIO, and advanced motor PWM timer. The chip's maximum clock frequency is 144MHz, and it can be programmed via the TYPE-C USB port, Facilitate rapid development and prototype verification
 
 ![1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317-1.jpg)
 
 # Feature
 - Dual USB interface, USB1 is USB-FS device, USB2 is USB-HS device
-- Can be downloaded directly via USB without additional downloader
+- Onboard 8MHz and 32.768K crystal oscillator
 - Onboard 100M Ethernet interface (with filter)
+- Can be downloaded directly via USB without additional downloader
 
 # Chip Resources
 ![CH32V317](https://github.com/wuxx/nanoCH32V317/blob/main/doc/CH32V317.jpg)
@@ -28,14 +29,14 @@ The nanoCH32V317 development board is designed by MuseLab based on the Qinheng C
 WCH officially provides MounRiver Studio IDE development environment, which supports Windows/Linux/Mac. The instructions are as follows
  
 ### MounRiver Studio Download
-download the MounRiver Studio IDE from the official website [MounRiver Studio](http://www.mounriver.com), and just select the latest version to download.
+download the MounRiver Studio IDE from the official website [MounRiver Studio](http://www.mounriver.com)
 
 ### Compile
 Take the GPIO project as an example, double-click doc\CH32V317EVT\EXAM\GPIO\GPIO_Toggle\GPIO_Toggle.wvproj to open the project
 ![MRS-1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-1.png)
 Click Project -> Build Project to compile the project  
 ![MRS-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-2.png)
-Click Flash -> Configuration to configure the target MCU
+Click Flash -> Configuration to configure the target MCU, choose the MCU type as CH32V317
 ![MRS-3](https://github.com/wuxx/nanoCH32V317/blob/main/doc/MounRiver-3.png)
 
 
@@ -61,8 +62,7 @@ download WCHISPStudio at [WCH Official Website](https://www.wch.cn/downloads/WCH
 ### WCHISPStudio Config
 The chip series select CH32V31x series, the chip model select CH32V317WCU6, and the download method select USB.  
 ![ISP-1](https://github.com/wuxx/nanoCH32V317/blob/main/doc/WCHISPStudio-EN-1.png)
-Keep pressing the BOOT button on the development board, then press and release the RST button, and finally release the BOOT button to make the chip enter the bootloader. If the bootloader is successfully entered, the target can be detected in the USB device list in the WCHISPStudio.
-Then select the bin or hex file to be programmed, and click Download to burn the firmware.
+Keep pressing the BOOT button on the development board, then press and release the RST button, and finally release the BOOT button to make the chip enter the bootloader. If the bootloader is successfully entered, the target can be detected in the USB device list, Then select the bin or hex file to be programmed, and click Download to program the firmware.
 ![ISP-2](https://github.com/wuxx/nanoCH32V317/blob/main/doc/WCHISPStudio-EN-2.png)
 ![ISP-3](https://github.com/wuxx/nanoCH32V317/blob/main/doc/WCHISPStudio-EN-3.png)
 
